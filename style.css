@@ -145,6 +145,13 @@ html, body{
     
   }
 
+  .carousel-img{
+    width: 100%;
+    height: 500px;
+    margin-top: 25px;
+  }
+
+
   /*  */
   .b-example-divider {
     width: 100%;
@@ -209,12 +216,7 @@ html, body{
     display: block !important;
   }
 
-  .carousel-img{
-    width: 100%;
-    height: 500px;
-    margin-top: 25px;
-  }
-
+  
 .social-media, .para{
     justify-content: center; align-items: center; display: flex;
 }
@@ -259,6 +261,7 @@ html, body{
       width: 100%; /* Full width for smaller screens */
       margin: 0; /* Remove margins */
       margin-bottom: 16px;
+      height: auto;
     }
 
     .carousel-caption h1 {
@@ -273,9 +276,24 @@ html, body{
       padding: 0.5rem 1rem; /* Adjust button size */
       font-size: 0.9rem;
     }
+    .carousel-vid{
+      width: 100%; /* Make images and videos responsive */
+      height: auto;
+      margin-top: 25px;
+    }
+
+    .carousel-img, video{
+      width: 100%; /* Make images and videos responsive */
+      height: auto;
+    }
+
     .featurette-divider-img {
         width: 100%; /*  */
         height: auto;
+    }
+    .featurette-divider-video{
+      width: 100%;
+      height: auto;
     }
 
     .social-media, .para{
