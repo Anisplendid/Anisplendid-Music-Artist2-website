@@ -1,0 +1,300 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*  */
+body{
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  body{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  body {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  body {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  body {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  body {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  body {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  /* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
+
+body {
+  font-family: "Geist Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*  */
+html, body{
+    background-color: var(--bs-body-color);
+    color: var(--bs-body-bg);
+     height: 85px;
+     margin: 0;
+     padding: 0;
+    
+}
+
+
+ :root[data-bs-theme="dark"] {
+  --bs-body-bg: white;
+  --bs-body-color: #000000;
+}
+
+:root[data-bs-theme="light"] {
+  --bs-body-bg: #000000;
+  --bs-body-color: rgb(212, 209, 209);
+}
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+@media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+        
+      }
+
+/* Basic styling for search results */
+.result { margin-bottom: 10px; }
+      
+#myCarousel {
+    width: 100%; /* Default width for larger screens */
+    margin: 0 auto; /* Center the carousel */
+    height: 570px;
+    background-color: #434141;
+    margin-bottom: 16px;
+  }
+
+  .carousel-img, video{
+    width: 100%; /* Make images and videos responsive */
+    height: auto;
+  }
+
+  .carousel-vid{
+    width: 100%; /* Make images and videos responsive */
+    height: 550px;
+    background-color: rgb(90, 95, 102);
+    
+  }
+
+  /*  */
+  .b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+  }
+
+  .bd-mode-toggle {
+    z-index: 1500;
+  }
+
+  .bd-mode-toggle .dropdown-menu .active .bi {
+    display: block !important;
+  }
+
+  .carousel-img{
+    width: 100%;
+    height: 500px;
+    margin-top: 25px;
+  }
+
+.social-media, .para{
+    justify-content: center; align-items: center; display: flex;
+}
+
+.container2{
+    background-color: rgb(254, 243, 243);
+    width: 100%;
+    height: 200px;
+}
+
+
+ /* gradient-background */
+ .gradient-background{
+    font-size: 3em;
+    font-weight: bold;
+    color: #ff0000; /* Fallback color */
+    background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff);
+    background-size: 300%; /* Makes animation smoother */
+    /* stylelint-disable-next-line property-no-vendor-prefix */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 5s infinite ease-in-out;
+  }
+  
+
+  @keyframes gradientMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+   /* Media query for small screens */
+   @media screen and (max-width: 768px) {
+    #myCarousel {
+      width: 100%; /* Full width for smaller screens */
+      margin: 0; /* Remove margins */
+      margin-bottom: 16px;
+    }
+
+    .carousel-caption h1 {
+      font-size: 1.5rem; /* Smaller font size for titles */
+    }
+
+    .carousel-caption p {
+      font-size: 1rem; /* Adjust paragraph text size */
+    }
+
+    .btn.btn-lg {
+      padding: 0.5rem 1rem; /* Adjust button size */
+      font-size: 0.9rem;
+    }
+    .featurette-divider-img {
+        width: 100%; /*  */
+        height: auto;
+    }
+
+    .social-media, .para{
+        justify-content: center; 
+        align-items: center;
+         display: block;
+         
+    }
+
+    #navbarCollapse{
+      background-color: #000000;
+      height: 365px;
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+      border-radius: 5px;
+    }
+    
+}
+
+
+      

@@ -1,0 +1,110 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  .newsletter-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  header p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .social-media #social-link {
+    text-decoration: none;
+    font-size: 30px;
+    transition: color 0.3s;
+  }
+
+  .FB{color: #004494; }
+  .U{ color: rgb(241, 22, 22); }
+  .X{color: black;}
+  .IG{color: rgb(208, 63, 88);}
+  .TIK{color: #333;}
+
+ .social-media #social-link:hover {
+    color: #b2d1f0;
+    transform: scale(2.1); /* Slight zoom on hover */
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .signup-form label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .signup-form input,
+  .signup-form select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-direction: none;
+    gap: 10px;
+  }
+  
+  .checkbox-group label {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .signup-form button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0073e6; /* Primary blue color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .signup-form button:hover {
+    background-color: #005bb5; /* Darker blue for hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .signup-form button:active {
+    background-color: #004494; /* Even darker blue when clicked */
+    transform: scale(1); /* Reset zoom effect */
+  }
